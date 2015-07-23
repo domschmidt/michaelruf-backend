@@ -4,11 +4,11 @@
       "name": "Quierschied > Saarbrücken",
       "stations": [
         {
-          "id": 1,
+          "index": 0,
           "name": "Quierschied Alte Post"
         },
         {
-          "id": 2,
+          "index": 1,
           "name": "Quierschied alter Markt"
         }
       ],
@@ -20,18 +20,55 @@
             "08:59"
           ]
         },
-        {
+        { 
           "availability": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
           "times": [
-            "08:55",
-            "08:59"
+            "09:55",
+            "09:59"
           ]
         },
         {
           "availability": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
           "times": [
-            "08:55",
-            "08:59"
+            "10:55",
+            "10:59"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Saarbrücken > Quierschied",
+      "stations": [
+        {
+          "index": 0,
+          "name": "Quierschied Alte Post"
+        },
+        {
+          "index": 1,
+          "name": "Quierschied alter Markt"
+        }
+      ],
+      "trips": [
+        {
+          "availability": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+          "times": [
+            "11:55",
+            "11:59"
+          ]
+        },
+        { 
+          "availability": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+          "times": [
+            "12:55",
+            "12:59"
+          ]
+        },
+        {
+          "availability": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+          "times": [
+            "13:55",
+            "13:59"
           ]
         }
       ]
